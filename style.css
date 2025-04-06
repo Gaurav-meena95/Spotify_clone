@@ -1,0 +1,25 @@
+body{
+  color: rgb(230, 226, 222);
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+body p{
+  color: rgb(164, 164, 164)
+}
+.logo img{
+  width: 2.8vw;
+  height: 4.9vh;
+}
+.home img{
+  width: 2.8vw;
+  height: 4.9vh;
+}
+.nav-search{
+  width: 2.8vw;
+  height: 4.9vh;
+}
+.nav-search1{
+  width: 2.8vw;
+  height: 4.9vh;
+}
