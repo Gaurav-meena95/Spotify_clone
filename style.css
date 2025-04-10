@@ -10,20 +10,20 @@ body p{
 
 /* nav bar imgesa css */
 .logo img{
-  width: 2.8vw;
-  height: 4.9vh;
+  width: 2.3vw;
+  height: 4vh;
 }
 .home img{
-  width: 2.8vw;
-  height: 4.9vh;
+  width: 2.3vw;
+  height: 4vh;
 }
 .nav-search-icon{
-  width: 2.8vw;
-  height: 4.9vh;
+  width: 2.3vw;
+  height: 4vh;
 }
 .nav-search1{
-  width: 2.8vw;
-  height: 4.9vh;
+  width: 2.3vw;
+  height: 4vh;
 }
 .install{
   width: 1.6vw;
@@ -143,6 +143,12 @@ main{
   border-radius: 0.5vw;
 
 }
+.btn-play{
+  background-color: aliceblue;
+  padding: 2vh 2.2vw;
+  border: none;
+  border-radius: 2.9vh;
+}
 .podcast{
   background-color: rgb(44, 43, 43);
   padding: 1.5vh;
@@ -150,8 +156,19 @@ main{
   border-radius: 0.5vw;
 
 }
+.btn-posd{
+  background-color: aliceblue;
+  padding: 2vh 2.2vw;
+  border: none;
+  border-radius: 2.9vh;
+}
 .left-foot{
   margin-top: 50%;
+}
+.foot1{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3vw ;
 }
 
 
@@ -171,10 +188,20 @@ main{
   align-items: center;
   height: 9vh;
   width: 100%;
-  background-color: aquamarine;
+  background-color: rgb(191, 107, 210);
   position: static;
+  color: aliceblue;
 }
 .footer-text{
   padding: 3vh;
+}
+.btn-footer{
+  background-color: aliceblue;
+  padding: 2vh 2.2vw;
+  border: none;
+  border-radius: 2.9vh;
 
+}
+.footer-btn{
+  padding: 3vw;
 }
