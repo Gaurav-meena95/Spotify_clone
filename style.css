@@ -3,15 +3,19 @@ body{
   background-color: black;
   padding: 0;
   margin: 0;
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
 }
 body p{
-  color: rgb(164, 164, 164)
+  color: rgb(215, 211, 211)
 }
 
 /* nav bar imgesa css */
 .logo img{
-  width: 2.3vw;
-  height: 4vh;
+  width: 5vw;
+  height: 4.5vh;
 }
 .home img{
   width: 2.3vw;
@@ -63,12 +67,17 @@ nav{
   gap: 1.2vw;
   align-items: center;
   background-color: rgb(34, 33, 33);
-  width: 100%;
+  width: 30vw;
   padding: 0.5vw 2vw 0.5vw 2vw;
   border-radius: 10vh;
 }
 input{
-  width: 200px;
+  width: 100%;
+  background-color: rgb(34, 33, 33);
+  border: none;
+  color: rgb(209, 205, 205);
+  outline: none;
+
 }
 
 /* nav bar-2 styele */
@@ -102,10 +111,7 @@ a{
   align-items: center;
 }
 
-.right{
-  background-color: rgb(18, 18, 18);
 
-}
 .btn-1{
   background-color: aliceblue;
   padding: 2vh 2.2vw;
@@ -171,6 +177,28 @@ main{
   gap: 3vw ;
 }
 
+
+
+.right{
+  background-color: rgb(18, 18, 18);
+  background-image: image-set('./photos/logo2.png');
+  background-size: contain;
+}
+.trendin_head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.trend_img{
+  height: 20vh;
+  width: 10vw;
+  background-image: image-set('./photos/songimg.jpg');
+  background-size: contain;
+}
+.trending_song{
+  display: flex;
+  justify-content: space-around;
+}
 
 
 
